@@ -70,7 +70,7 @@ jobs:
               pwd && \
               ls && \
               
-              apt-get install graphviz && \
+              apt-get -y install graphviz && \
               python -m pip install tox && \
               tox -vv --notest && \
               tox --skip-pkg-install && \
