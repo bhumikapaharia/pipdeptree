@@ -75,5 +75,4 @@ jobs:
               python -m pip install tox && \
               tox -vv --notest && \
               tox --skip-pkg-install && \
-              
               deactivate'
