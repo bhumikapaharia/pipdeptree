@@ -68,5 +68,5 @@ jobs:
               apt-get -y install graphviz && \
               python -m pip install tox && \
               tox -e py38 -vv --notest && \
-              tox --skip-pkg-install && \
+              tox -e py38 --skip-pkg-install && \
               deactivate'
